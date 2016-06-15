@@ -1,7 +1,5 @@
-#Rails.application.routes.draw do
- Pintresting::Application.routes.draw do
+Rails.application.routes.draw do
   root "pages#home"
-  #replaced get 'pages/home'
   get "about" => "pages#about" #creates about_path
   
 

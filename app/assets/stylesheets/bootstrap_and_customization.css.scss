@@ -1,9 +1,25 @@
-$body-bg:				#D64541;
-$navbar-default-bg: #96281B;
-$navbar-default-link-color: #F8D9D5;
-$jumbotron-bg: #F8CAC1;
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$btn-success-bg:  #C0392B;
-$btn-success-color: #F8D9D5;
+$body-bg:											#D64541;
+$font-family-sans-serif:			'Lato', Helvetica, Arial, sans-serif;
+$font-size-base:							20px;
+$navbar-height: 							60px;
+$navbar-default-bg:						#96281B;
+$navbar-default-brand-color:  #F8D9D5;
+$brand-primary:								#F8D9D5;
+$navbar-default-link-color: 	#F8D9D5;
+$jumbotron-bg: 								#F8CAC1;
 
+$btn-success-bg:  						#C0392B;
+$btn-success-color: 					#F8D9D5;
+
+@import "bootstrap-sprockets";
 @import "bootstrap";
+
+.center {
+	text-align: center;
+}
+
+.navbar-brand {
+	font-weight: bold;
+}

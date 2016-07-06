@@ -10,6 +10,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
 gem 'tzinfo-data'
+gem 'devise', '~> 4.2.0'
 
 group :development, :test do
 	gem 'sqlite3'
